@@ -131,7 +131,7 @@
     <p>
       Curious to collaborate, chat, or hire me? I’m open to opportunities, conversation, and projects that align with creativity, purpose, and growth.
     </p>
-    <p>Email me at: <a href="mailto:kristanpasternak@gmail.com">your.email@example.com</a></p>
+    <p>Email me at: <a href="mailto:kristanpasternak@gmail.com">kristanpasternak@gmail.com</a></p>
   </section>
 
   <footer>
