@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kristan's Corner</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Georgia', serif;
+      background: url('A09DB808-8314-462A-9838-0773A512347A.jpeg') no-repeat center center fixed;
+      background-size: cover;
+      color: #2f2f2f;
+      line-height: 1.6;
+      position: relative;
+    }
+
+    body::before {
+      content: "";
+      position: fixed;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: rgba(255, 255, 255, 0.7);
+      backdrop-filter: blur(4px);
+      z-index: -1;
+    }
+
+    header {
+      text-align: center;
+      padding: 60px 20px 20px;
+    }
+
+    header h1 {
+      font-size: 3em;
+      color: #3a3a3a;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-style: italic;
+      font-size: 1.2em;
+      color: #5a5a5a;
+    }
+
+    nav {
+      text-align: center;
+      margin: 30px 0;
+    }
+
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #4a4a4a;
+      font-weight: bold;
+    }
+
+    section {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 40px 20px;
+      background: rgba(255, 255, 255, 0.8);
+      border-radius: 10px;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+      margin-bottom: 30px;
+    }
+
+    h2 {
+      border-bottom: 2px solid #cfcfcf;
+      padding-bottom: 5px;
+      margin-bottom: 20px;
+      font-weight: normal;
+    }
+
+    .profile-pic {
+      float: right;
+      width: 200px;
+      margin-left: 20px;
+      margin-bottom: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 12px rgba(0,0,0,0.2);
+    }
+
+    .cats {
+      font-style: italic;
+      color: #6a5d57;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px 20px;
+      font-size: 0.9em;
+      color: #7a7a7a;
+    }
+
+    a:hover {
+      color: #8a574d;
+    }
+
+    @media (max-width: 600px) {
+      .profile-pic {
+        float: none;
+        display: block;
+        margin: 0 auto 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Kristan</h1>
+    <p>Curious mind. Plant lover. Cat herder. Working on being unstoppable.</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#goals">Goals</a>
+    <a href="#cats">Cats</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <img src="0CC5473F-CB4F-458F-A833-4E39DB6F7994.jpeg" alt="Kristan Portrait" class="profile-pic" />
+    <p>
+      I'm Kristan—a driven, music-loving, language-learning, fitness-chasing creative force. I'm on a journey of personal growth, career discovery, and leveling up in all the ways that matter. I thrive on clever conversations, spontaneous ideas, and the occasional existential spiral (with a side of oat milk).
+    </p>
+  </section>
+
+  <section id="goals">
+    <h2>What I'm Working On</h2>
+    <ul>
+      <li>Strengthening my fitness and mental resilience</li>
+      <li>Sharpening my cooking skills—hello, vegetarian flavor explosions</li>
+      <li>Becoming conversational in Spanish (¡poco a poco!)</li>
+      <li>Finding the right career path where passion and paycheck collide</li>
+    </ul>
+  </section>
+
+  <section id="cats">
+    <h2>A Note About the Cats</h2>
+    <p class="cats">
+      I share my space with two mysterious black cats and one sunshine-orange feline. They are my chaos goblins and occasional productivity blockers, but also my fuzzy therapy crew. You'll spot their influence in occasional pawprints and misplaced Zoom cameos.
+    </p>
+  </section>
+
+  <section id="contact">
+    <h2>Let’s Connect</h2>
+    <p>
+      Curious to collaborate, chat, or hire me? I’m open to opportunities, conversation, and projects that align with creativity, purpose, and growth.
+    </p>
+    <p>Email me at: <a href="mailto:kristanpasternak@gmail.com">your.email@example.com</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Kristan. Powered by caffeine, playlists, and stubborn optimism.</p>
+  </footer>
+</body>
+</html>
